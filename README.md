@@ -48,3 +48,4 @@ The software and hardware used in this project has been made possible by the pri
 * Play audio from SD card with MP3 support
 * Simple Amazon Alexa
 * Record audio to SD card
+* Mod replayer for chiptunes
