@@ -2,7 +2,9 @@
 The audio solution dedicated to the TinyPICO.
 ## About
 The Pico Audio is a fully featured audio solution specially made for the TinyPICO ESP32 development board. The Pico Audio features an I2S Stereo DAC, I2S Mono MEMS Microphone and a builtin 3.7W Stereo Amplifier.
+
 The Pico Audio utilises a low power NXP UDA1334A IC featuring a clear digital 16/20/24 bit, 44.1kHz, stereo audio DAC. Accompanying the DAC is a Knowles SPH0645 I2S digital mono microphone. This miniature low power MEMS microphone provides a low noise, 24 bit, 44.1kHz stream. Complimenting the DAC is the powerful Maxim MAX98306 3.7W stereo class D amplifier.
+
 The Pico Audio has a mounting socket to host the TinyPICO development board and connects all of these great features together in a seamless and easy to utilise footprint measuring a tiny 32 mm x 47 mm (1.2in x 1.86in).
 ## PCB Layout
 ![XCopy Board Image](https://github.com/AdamKeher/Pico-Audio/blob/master/files/board.png)
@@ -12,7 +14,10 @@ The software and hardware used in this project has been made possible by the pri
 ## Features
 * TinyPICO Compatible
   * Simply plug your TinyPICO board into the Pico Audio and your ready to go
-* UDA1334A Stereo DAC
+* Audio Out
+  * 3.5mm headphone jack. Plug in headphones or line out to an external device
+  * Stereo screw clamp audio terminals
+* * UDA1334A Stereo DAC
   * Low power audio DAC
   * Integrated digital filter and switchable digital de-emphasis for 44.1 kHz frequency
   * Supports samples from 16 to 100 kHz
@@ -25,7 +30,7 @@ The software and hardware used in this project has been made possible by the pri
   * Spread Spectrum Modulation
   * Five selectable gain levels
   * Excellent click and pop suppression
-* SPH0645LM4H MEMS Microphone
+  SPH0645LM4H MEMS Microphone
   * Low power design
   * Simple I2S interface
   * Flat frequency response
