@@ -1,7 +1,7 @@
 # Pico Audio
 The audio solution dedicated to the TinyPICO.
 ## About
-The Pico Audio is a fully featured audio solution specially made for the TinyPICO ESP32 development board. The Pico Audio features an I2S Stereo DAC, I2S Mono MEMS Microphone, builtin 3.7W Stereo Amplifier, I2S GPIO Extender and built-in MicroSD card reader.
+The Pico Audio is a fully featured audio solution specially made for the TinyPICO ESP32 development board. The Pico Audio features an I2S Stereo DAC, I2S Mono MEMS Microphone, builtin 3.7W Stereo Amplifier, I2C GPIO Extender and built-in MicroSD card reader.
 
 The Pico Audio utilises a low power NXP UDA1334A IC featuring a clear digital 16/20/24 bit, 44.1kHz, stereo audio DAC. Accompanying the DAC is a Knowles SPH0645 I2S digital mono microphone. This miniature low power MEMS microphone provides a low noise, 24 bit, 44.1kHz stream. Complimenting the DAC is the powerful Maxim MAX98306 3.7W stereo class D amplifier.
 
