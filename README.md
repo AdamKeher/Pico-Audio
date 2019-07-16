@@ -1,16 +1,16 @@
 # Pico Audio
 The audio solution dedicated to the TinyPICO.
 ## About
-The Pico Audio is a fully featured audio solution specially made for the TinyPICO ESP32 development board. The Pico Audio features an I2S Stereo DAC, I2S Mono MEMS Microphone and a builtin 3.7W Stereo Amplifier with built-in MicroSD card reader.
+The Pico Audio is a fully featured audio solution specially made for the TinyPICO ESP32 development board. The Pico Audio features an I2S Stereo DAC, I2S Mono MEMS Microphone, builtin 3.7W Stereo Amplifier, I2S GPIO Extender and built-in MicroSD card reader.
 
 The Pico Audio utilises a low power NXP UDA1334A IC featuring a clear digital 16/20/24 bit, 44.1kHz, stereo audio DAC. Accompanying the DAC is a Knowles SPH0645 I2S digital mono microphone. This miniature low power MEMS microphone provides a low noise, 24 bit, 44.1kHz stream. Complimenting the DAC is the powerful Maxim MAX98306 3.7W stereo class D amplifier.
 
-The Pico Audio has a mounting socket to host the TinyPICO development board and connects all of these great features together in a seamless and easy to utilise footprint measuring a tiny 32 mm x 47 mm (1.2in x 1.86in).
+The Pico Audio has a mounting socket to host the TinyPICO development board and connects all of these great features together in a seamless and easy to utilise footprint measuring a tiny 32 mm x 47 mm (1.2in x 1.86in). To provide maximum connectivity the board features a built-in MicroSD card reader and GPIO extender to hookup 8 inputs and outputs for all of your button and LED needs.
 ## PCB Layout
 ![XCopy Board Image](https://github.com/AdamKeher/Pico-Audio/blob/master/files/board.png)
 ![XCopy Board Image](https://github.com/AdamKeher/Pico-Audio/blob/master/files/route.png)
 ## Features
-The software and hardware used in this project has been made possible by the principle of open hardware and software. Many of the samples have been collected together from a variety of authors and edited to work out of the box with the Pico Audio for instructional purposes. Please consult each sample project for relevant license and credit.
+The software and hardware used in this project have been made possible by the principle of open hardware and software. Many of the samples have been collected together from a variety of authors and edited to work out of the box with the Pico Audio for instructional purposes. Please consult each sample project for relevant license and credit.
 ## Features
 * TinyPICO Compatible
   * Simply plug your TinyPICO board into the Pico Audio and your ready to go
@@ -43,8 +43,14 @@ The software and hardware used in this project has been made possible by the pri
   * High SNR of 65dB(A)
   * RF shielded
   * Omnidirectional
+* PCF8574 GPIO Extender
+  * Low standby current
+  * I2C programmable
+  * Latched outputs with enough current to drive LEDs
+  * 8 Input and Output ports wired to a header with 3 outputs also pre wired to onboard buttons.
 ## Sample Projects Modified for Pico Audio
 * Stream net radio stations with MP3 support
+  * I2C 2x16 character LCD and ILI93411 320x240 TFT display samples provided
 * Play audio from SD card with MP3 support
 * Simple Amazon Alexa
 * Record audio to SD card
