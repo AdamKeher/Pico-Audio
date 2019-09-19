@@ -1,5 +1,0 @@
-{
-    "board": "esp32:esp32:pico32",
-    "configuration": "UploadSpeed=921600,DebugLevel=none",
-    "sketch": "..\\Net_Radio\\Net_Radio.ino"
-}
