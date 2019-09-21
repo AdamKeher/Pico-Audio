@@ -1,5 +1,6 @@
 # Pico Audio
 The audio solution dedicated to the TinyPICO.
+Arduino Support Library: https://github.com/AdamKeher/Pico-Audio-Arduino
 ## About
 The Pico Audio is a fully featured audio solution specially made for the TinyPICO ESP32 development board. The Pico Audio features an I2S Stereo DAC, I2S Mono MEMS Microphone, builtin 3.7W Stereo Amplifier, I2C GPIO Extender and built-in MicroSD card reader.
 
