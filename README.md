@@ -2,6 +2,7 @@
 The audio solution dedicated to the TinyPICO.
 
 Arduino Support Library: https://github.com/AdamKeher/Pico-Audio-Arduino
+
 3d printable base: https://github.com/AdamKeher/Pico-Audio/tree/master/base
 ## About
 The picoAUDIO is a fully featured audio solution specially made for the TinyPICO ESP32 development board, featuring an I2S Stereo DAC, I2S Mono MEMS Microphone, builtin 3.7W Stereo Amplifier, dedicated Headphone Amplifier, I2C GPIO Extender and built-in MicroSD card reader.
